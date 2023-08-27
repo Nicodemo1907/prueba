@@ -1,0 +1,46 @@
+Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+print ("hola mundo")
+hola mundo
+nombre ="nicolas"
+print ("hola" ,  nombre , "! ¿como estas?")
+hola nicolas ! ¿como estas?
+edad = 24
+print (f"hola {nombre}  ¿como estas? ,¿que edad tienes? {edad}")
+hola nicolas  ¿como estas? ,¿que edad tienes? 24
+>>> print ("momento 1")
+momento 1
+>>> print ("momento 2")
+momento 2
+>>> print ("momento 3")
+momento 3
+>>> print ("momento 1\momento 2\momento 3")
+momento 1\momento 2\momento 3
+>>> print ("hola" , "mundo", sep="" )
+holamundo
+>>> print ("hacer", "un", "nuevo", "trabajo", sep= ">>>>")
+hacer>>>>un>>>>nuevo>>>>trabajo
+>>> print ("python", "repositorio", sep="#$%&@")
+python#$%&@repositorio
+>>> print (1,2,3,4,5 , end=" ")
+1 2 3 4 5 
+>>> print (1,2,3,4,5 , end="n\m\a")
+1 2 3 4 5n\m
+>>> print (123 , end="\numeros\n")
+123
+umeros
+>>> num_entero= 10
+>>> num_real=15.535
+>>> tipo_cadena ="trabajo variables"
+>>> tipo_bool=True
+>>> print (num_entero)
+10
+>>> print (num_real)
+15.535
+>>> print (tipo_cadena)
+trabajo variables
+>>> print (tipo_bool)
+True
+>>> resultado_suma = 15+25
+>>> print (resultado_suma)
+40
